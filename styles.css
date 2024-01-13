@@ -1,0 +1,78 @@
+:root {
+  --red: #ed254e;
+  --yellow: #f9dc5c;
+  --green: #c2eabd;
+  --navy: #011936;
+  --gray: #465362;
+  --white: #f8f6eb;
+  font-family: 'Bebas Neue', sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-family: 'Nunito', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+body {
+  /* background-color: var(--red); */
+  overflow: hidden;
+}
+
+#container {
+  display: inline-block;
+}
+
+#left-side {
+  background-color: var(--navy);
+  height: 100vh;
+  float: left;
+  width: 40vw;
+}
+
+#right-side {
+  height: 100vh;
+  width: 60vw;
+  float: right;
+  background-color: var(--red);
+}
+
+#left-side h1 {
+  color: var(--white);
+  font-family: 'Nunito', sans-serif;
+  font-weight: 500;
+  padding: 20px;
+  font-size: 45px;
+}
+
+#house {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+#left-side h2 {
+  color: var(--white);
+  font-size: 30px;
+  text-align: center;
+}
+
+#right-side h1 {
+  color: var(--navy);
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+#box-cont {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+#box {
+  width: 40vw;
+  height: 60vh;
+  border: 5px solid;
+  border-color: var(--white);
+  border-radius: 18px;
+}
