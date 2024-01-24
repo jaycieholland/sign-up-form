@@ -63,16 +63,74 @@ body {
   font-family: 'Noto Sans JP', sans-serif;
 }
 
+.sign-up {
+  padding-left: 30px;
+  padding-top: 20px;
+}
+
 #box-cont {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
+  padding-top: 70px;
+}
+
+#card {
+  border: 3px solid;
+  border-color: var(--white);
+  background-color: var(--white);
+  border-radius: 18px;
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  column-gap: 50px;
+  margin: auto;
+}
+
+.form_container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 2em;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+  padding-right: 100px;
+}
+
+label {
+  color: var(--navy);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 22px;
+}
+
+button {
+  max-width: 120px;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 16px;
+  color: var(--white);
+  background-color: var(--gray);
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  background-color: var(--navy);
+}
+
+h2 {
+  font-size: 16px;
+  color: var(--white);
+  text-align: center;
   padding-top: 30px;
 }
 
-#box {
-  width: 40vw;
-  height: 60vh;
-  border: 5px solid;
-  border-color: var(--white);
-  border-radius: 18px;
+a {
+  font-size: 16px;
+  color: var(--white);
+  text-align: center;
+  padding-top: 30px;
 }

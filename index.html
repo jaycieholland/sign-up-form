@@ -89,10 +89,80 @@
           <h2>(800)123-5555</h2>
         </div>
         <div id="right-side">
-          <h1>Sign up...</h1>
+          <h1 class="sign-up">Sign up...</h1>
           <div id="box-cont">
-            <div id="box"></div>
+            <div id="card">
+              <form action="" method="post">
+                <div class="form_container">
+                  <div class="input-control">
+                    <label for="first_name">First Name</label>
+                    <input
+                      type="text"
+                      name="first_name"
+                      id="first_name"
+                      maxlength="20"
+                      required
+                    />
+                    <div class="msg"></div>
+                  </div>
+                  <div>
+                    <label for="last_name">Last Name</label>
+                    <input
+                      type="text"
+                      name="last_name"
+                      id="last_name"
+                      maxlength="20"
+                      required
+                    />
+                    <div class="msg"></div>
+                  </div>
+                  <div>
+                    <label for="email">Email</label>
+                    <input type="email" name="user_email" id="email" required />
+
+                    <div class="msg"></div>
+                  </div>
+                  <div>
+                    <label for="phone_number">Phone Number</label>
+                    <input
+                      type="tel"
+                      name="phone_number"
+                      id="phone_number"
+                      maxlength="15"
+                      required
+                    />
+                    <div class="msg"></div>
+                  </div>
+                  <div>
+                    <label for="password">Password</label>
+                    <input
+                      type="password"
+                      name="password"
+                      id="password"
+                      minlength="6"
+                      maxlength="32"
+                      required
+                    />
+                    <div class="msg"></div>
+                  </div>
+                  <div>
+                    <label for="confirm_password">Confirm Password</label>
+                    <input
+                      type="password"
+                      name="confirm_password"
+                      id="confirm_password"
+                      minlength="6"
+                      maxlength="32"
+                      required
+                    />
+                    <div class="msg"></div>
+                  </div>
+                  <button type="submit">Create Account</button>
+                </div>
+              </form>
+            </div>
           </div>
+          <h2>Already Have an Account? <a href="">Log in</a></h2>
         </div>
       </div>
     </body>
